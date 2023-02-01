@@ -70,6 +70,73 @@ print(que) # [7, 2, 3, 4, 5, 10]
     - 구구단 프로그램
     - 함수
 
+```python
+# 구구단 - 2중 for문
+for x in range(2,10):
+    print(f'{x}단 시작 ======')
+    for y in range(1,10):
+        print(f'{x} X {y} = {x*y:>2}', end=' ')  # 출력의 마지막을 스페이스바로 바꿈, 
+                                                 #:>2 는 두자리로 만들어서 줄맞춤 하라는 뜻
+        #print(x, 'x', y, '=', x*y)
+    print()   # 안쪽 for문을 빠져나와서 줄을 바꿔준다.
+
+# 함수
+# 함수정의 - 이건 실행이 아님
+# 함수만드는 방법 4가지
+# 1. 파라미터O 리턴O
+# 2. 파라미터O 리턴X
+# 3. 파라미터X 리턴O
+# 4. 파라미터X 리턴X
+def add(x,y):  # 함수종류의 2번째
+    result = x + y
+    print(result)
+
+def sub(x,y):
+    result = x - y
+    print(result)
+
+def mul(x,y):
+    result = x*y
+    print(result)
+    
+def div(x,y):
+    result = x/y
+    print(result)
+    
+def hello():    #()안에 있는 것이 파라미터, 파라미터 없이 리턴안하는것 4번째
+    print('Hello~!!')
+    
+def hello2():  #함수종류의 3번째
+    msg = 'Hello, Hello'
+    return msg
+
+# 함수 호출
+hello()
+print(hello2())
+
+add(1024, 5) 
+sub(1024, 1000)
+mul(512,2)
+div(108,10)
+
+# 계산기만드는 code17 다시한번 살펴보기!!!!
+# 전역/지역 = 글로벌/로컬 함수
+num = 1
+
+for i in range(1, 11):
+    num = i * num
+    print(f'{i + 1}번')
+
+    if i % 3 == 0:    # 3의 배수이면
+        res = '테스트'
+        print(res)
+
+print(f'결과 {num}')
+print(res)
+
+
+
+```
     
 
 
