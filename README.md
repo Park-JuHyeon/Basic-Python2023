@@ -140,9 +140,20 @@ print(res)
     
 # 4일차
 1. 파이썬 기본
-    - 가상환경
+    - 가상환경 => 패스
     - 객체지향 OOP
-    - 패키지
+    - 패키지, 모듈
+
+```python
+# 클래스 생성
+class Person:     # 클래스 정의할때는 ()없음
+    # 초기화하는 함수 init
+    def __init__(self, name = '홍길동', height = 170 , gender = 'male') -> None:  
+    
+
+
+
+```
     
     
     
