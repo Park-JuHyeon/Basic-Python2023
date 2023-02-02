@@ -146,12 +146,22 @@ print(res)
 
 ```python
 # 클래스 생성
-class Person:     # 클래스 정의할때는 ()없음
+class Person:     # 클래스 정의할때는 ()없음 클래스에서는 self가 항상 들어가야함!!!
     # 초기화하는 함수 init
     def __init__(self, name = '홍길동', height = 170 , gender = 'male') -> None:  
     
+hong = Person()
+hong.run('slow')
+print(hong)  # 2. 홍길동 : 이름은 홍길동 성별은 male 출력
 
+# 모듈사용
+import math as m   # 클래스로 안된 모듈
+import code22_person as p # 우리가 만든 클래스
+from code23_car import Car
 
+# 우리가 만든 모듈을 사용해보자
+me = p.Person('홍길순', 155, '여성')
+print(me)  # '출력: 이름은 홍길순 성별은 여성' 출력.
 
 ```
     
