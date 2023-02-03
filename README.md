@@ -167,10 +167,6 @@ print(me)  # '출력: 이름은 홍길순 성별은 여성' 출력.
 # 5일차 
 1. 파이썬 기본
     - 패키지 계속..
-    ```python
-    
-
-    ```
     - 입출력 다시
     - 예외처리
     
@@ -201,8 +197,19 @@ print(inputs)
 
 inputs = list(map(int, input('정수를 입력하세요 > ').split()))
 
-print(inputs)
+print(inputs)    # 단어를 입력하세요 > 안녕 난 무명성 지구인이야 ['안녕', '난', '무명성', '지구인이야']
+                 # 정수를 입력하세요 > 4 5 6  [4, 5, 6]
 
+# 예외처리 try, except
+try:
+    x, y = input('두수를 입력하세요 > ').split()
+    x = int(x)
+    y = int(y)
+except Exception as e:
+    print(e)
+    exit()
+finally:   
+    print('계속되나요?')   # 이거 실행뒤 종료됨
 
 
 ```
