@@ -164,7 +164,50 @@ me = p.Person('홍길순', 155, '여성')
 print(me)  # '출력: 이름은 홍길순 성별은 여성' 출력.
 
 ```
+# 5일차 
+1. 파이썬 기본
+    - 패키지 계속..
+    ```python
     
+
+    ```
+    - 입출력 다시
+    - 예외처리
+    
+```python
+# random 모듈 사용 (로또 번호 생성기)
+import random
+
+# print(random.choice(range(1, 7)))  1 ~ 6까지의 숫자중 랜덤으로 하나
+
+numbers = [i for i in range(1, 46)] # 1~45까지의 리스트
+lottery = []
+
+for i in range(6):
+    lottery.append(random.choice(numbers))
+
+print(lottery)  # 랜덤으로 번호 6개가 출력됨
+
+# 입출력 : I O 다중입력  <중요함>
+
+# x, y = input('두 영단어를 입력하세요 > ').split()
+# print(x)
+# print(y)
+
+# 완전 다중입력(개수가 몇개든 상관없음) 매우중요@@!!
+inputs = list(map(str, input('단어를 입력하세요 > ').split()))
+
+print(inputs)
+
+inputs = list(map(int, input('정수를 입력하세요 > ').split()))
+
+print(inputs)
+
+
+
+```
+
+
     
     
     
