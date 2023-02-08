@@ -245,7 +245,7 @@ finally:
 
 ![실행화면](https://raw.githubusercontent.com/Park-JuHyeon/study-Python2023/main/images/jupyter_folium.png)
 
-OpenAPI 
+[OpenAPI 실행화면] 
 
 # 9일차
 1. 파이썬 응용    
