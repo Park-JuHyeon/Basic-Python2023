@@ -242,6 +242,7 @@ finally:
         - 기상청 오늘의 날씨 크롤링
         - 데이터포털 OpenAPI 크롤링
         - BeautifulSoup 크롤링
+            - 소스 주소[https://github.com/Park-JuHyeon/study-Python2023/blob/main/Day08/code44_web_crawling_tutorial.ipynb]
 
 ![실행화면](https://raw.githubusercontent.com/Park-JuHyeon/study-Python2023/main/images/jupyter_folium.png)
 
