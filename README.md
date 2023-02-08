@@ -244,6 +244,7 @@ finally:
         - BeautifulSoup 크롤링
 
 ![실행화면](https://raw.githubusercontent.com/Park-JuHyeon/study-Python2023/main/images/jupyter_folium.png)
+
 OpenAPI 
 
 # 9일차
