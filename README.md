@@ -286,7 +286,7 @@ if __name__ == '__main__':
         - PyQt 위젯 계속
         - PyQt 다이얼로그
 
-![실행화면]()
+![실행화면](https://github.com/Park-JuHyeon/study-Python2023/blob/main/images/dialog.png)
 
 PyQt 실행화면
     
